@@ -20,7 +20,7 @@ public class GeminiService {
         void onFailure(String error);
     }
 
-    private static final String API_KEY = "AIzaSyCfjDyLZJN13rmyEkPXw5lfSHpHTy-paAY";
+    private static final String API_KEY = "your api key";
 
     private static final String URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + API_KEY;
 
